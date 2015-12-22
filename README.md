@@ -1,6 +1,9 @@
 # equalsish
 > Compare strings ignoring case, punctuation, diacritics, etc.
 
+[![circleci build](https://img.shields.io/circleci/project/dar5hak/equalsish.svg?style=flat-square)](https://circleci.com/gh/dar5hak/equalsish)
+[![npm version](https://img.shields.io/npm/v/equalsish.svg?style=flat-square)](https://www.npmjs.com/package/equalsish)
+[![license](https://img.shields.io/npm/l/equalsish.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0)
 
 ## Install
 
