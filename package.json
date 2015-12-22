@@ -8,10 +8,7 @@
     "name": "Darshak Parikh",
     "email": "darshak@openmailbox.org"
   },
-  "files": [
-    "lib"
-  ],
-  "main": "lib/index.js",
+  "main": "index.js",
   "keywords": [
     "string",
     "compare",
@@ -22,21 +19,15 @@
     "diacritics",
     "punctuation"
   ],
-  "devDependencies": {
-    "gulp": "^3.6.0",
-    "gulp-eslint": "^0.15.0",
-    "gulp-exclude-gitignore": "^1.0.0",
-    "gulp-istanbul": "^0.9.0",
-    "gulp-mocha": "^2.0.0",
-    "gulp-plumber": "^1.0.0",
-    "gulp-nsp": "^0.4.5"
-  },
   "scripts": {
-    "prepublish": "gulp prepublish",
-    "test": "gulp"
+    "test": "xo && ava"
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "diacriticless": "^1.0.1"
+    "naked-string": "^1.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.8.0",
+    "xo": "^0.12.1"
   }
 }
