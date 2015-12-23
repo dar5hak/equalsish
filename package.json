@@ -1,6 +1,6 @@
 {
   "name": "equalsish",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Compare strings ignoring case, punctuation, diacritics, etc.",
   "homepage": "",
   "repository": "dar5hak/equalsish",
