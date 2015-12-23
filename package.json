@@ -24,7 +24,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "naked-string": "^1.0.1"
+    "naked-string": "^1.1.0"
   },
   "devDependencies": {
     "ava": "^0.8.0",
