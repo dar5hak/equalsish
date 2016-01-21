@@ -9,6 +9,7 @@
     "email": "darshak@openmailbox.org"
   },
   "main": "index.js",
+  "files": ["index.js"],
   "keywords": [
     "string",
     "compare",
