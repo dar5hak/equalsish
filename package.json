@@ -1,6 +1,6 @@
 {
   "name": "equalsish",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Compare strings ignoring case, punctuation, diacritics, etc.",
   "homepage": "",
   "repository": "dar5hak/equalsish",
@@ -25,10 +25,10 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "naked-string": "^1.0.1"
+    "naked-string": "^1.1.0"
   },
   "devDependencies": {
-    "ava": "^0.8.0",
+    "ava": "^0.10.0",
     "xo": "^0.12.1"
   }
 }
