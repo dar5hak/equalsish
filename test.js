@@ -7,6 +7,10 @@ test('export function', t => {
 	t.is(typeof equalsish, 'function');
 });
 
+test('no arguments', t => {
+	t.throws(equalsish, 'No arguments provided.');
+});
+
 test('return true for equal strings', t => {
 	t.true(equalsish('blasphemy', 'blasphemy'));
 });
@@ -29,4 +33,9 @@ test('ignore diacritics', t => {
 
 test('ignore everything at once', t => {
 	t.true(equalsish('Pokémon FireRed', 'pokemon_fire-red'));
+});
+
+test('currying', t => {
+	const likeJS = equalsish('JavaScript');
+	t.true(likeJS('java script'));
 });

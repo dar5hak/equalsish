@@ -18,6 +18,10 @@ const equalsish = require('equalsish');
 
 console.log(equalsish('Node.js', 'nodejs')); // => true
 console.log(equalsish('Pokémon FireRed', 'pokemon_fire-red')); // => true
+
+/* Currying */
+const likeJS = equalsish('JavaScript');
+console.log(likeJS('java script')); // => true;
 ```
 
 ## License
