@@ -30,7 +30,7 @@
     "naked-string": "^1.1.1"
   },
   "devDependencies": {
-    "ava": "^0.16.0",
+    "ava": "^0.17.0",
     "xo": "^0.17.0"
   }
 }
