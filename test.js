@@ -1,7 +1,7 @@
 'use strict';
 
 import test from 'ava';
-import equalsish from './index';
+import equalsish from '.';
 
 test('export function', t => {
 	t.is(typeof equalsish, 'function');
