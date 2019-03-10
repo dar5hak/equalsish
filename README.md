@@ -8,7 +8,7 @@
 ## Install
 
 ```sh
-$ npm install --save equalsish
+$ npm install equalsish
 ```
 
 ## Usage
