@@ -1,14 +1,14 @@
 'use strict';
 
-import test from 'ava';
-import equalsish from '.';
+const test = require('ava');
+const equalsish = require('.');
 
 test('export function', t => {
 	t.is(typeof equalsish, 'function');
 });
 
 test('no arguments', t => {
-	t.throws(equalsish, 'No arguments provided.');
+	t.throws(equalsish, null, 'No arguments provided.');
 });
 
 test('return true for equal strings', t => {
